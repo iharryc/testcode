@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "io.h": "c",
+        "iocan128.h": "c",
+        "iocanxx.h": "c",
+        "interrupt.h": "c"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "runner": "terminal",
+    "type": "shell",
+    
+    "tasks": [
+        {
+            "group": "test",
+            "label": "AVR업로드",
+            "command": "C:/DevFiles/avrdude/avrdude.exe -c avrispmkII -p c128 -P usb -e -U flash:w:W:/test/fw/build/TEST.hex:a"
+        }
+    ]
+}  
+ 
